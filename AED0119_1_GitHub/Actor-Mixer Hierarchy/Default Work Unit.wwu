@@ -38,6 +38,29 @@
 						<ActiveSource Name="BIG SCRAP S RHAP P 01 04 09 2" ID="{2DE4BFE0-DE21-4BD4-B7A9-CE2C833820A6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Alonso" ID="{27508924-F300-4367-A9EB-5A4168E5CDE1}" ShortID="641259787">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A4285266-53A5-41A2-A417-461570DA9C15}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{367061A6-7DC2-4FF6-A34A-F8D3FEFEBAC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sample1" ID="{D4965EDA-B97F-48B0-9858-2A88DCD4B2DB}">
+							<Language>SFX</Language>
+							<AudioFile>sample1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="250154936"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="sample1" ID="{D4965EDA-B97F-48B0-9858-2A88DCD4B2DB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
