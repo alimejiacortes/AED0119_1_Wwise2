@@ -38,6 +38,29 @@
 						<ActiveSource Name="BIG SCRAP S RHAP P 01 04 09 2" ID="{2DE4BFE0-DE21-4BD4-B7A9-CE2C833820A6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Eduardo" ID="{35A0CBD6-FC03-46D0-A9AF-5790D3942F6A}" ShortID="287152084">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A4285266-53A5-41A2-A417-461570DA9C15}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{367061A6-7DC2-4FF6-A34A-F8D3FEFEBAC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="voces asylum 2" ID="{C41D9B1C-60E9-48AA-BE6A-73AF7E9F0E43}">
+							<Language>SFX</Language>
+							<AudioFile>voces asylum 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="922286690"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="voces asylum 2" ID="{C41D9B1C-60E9-48AA-BE6A-73AF7E9F0E43}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
